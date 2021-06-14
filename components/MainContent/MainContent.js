@@ -10,6 +10,7 @@ import {
 	SiUdemy,
 } from "react-icons/si";
 import { MdSchool } from "react-icons/md";
+import CardItem from "./CardItem"
 import Image from "next/image";
 import styles from "./MainContent.module.css";
 export default function MainContent({ contentType }) {
@@ -37,6 +38,7 @@ function OverViewContent() {
 	return (
 		<div>
 			<div className={styles.blockText}>
+				
 				<h3>Overview</h3>
 				<p className={styles.dataOverview}>{data.overview}</p>
 			</div>
@@ -49,7 +51,7 @@ function OverViewContent() {
 					</div>
 					<div id={styles.listItem}>
 						<FaNodeJs />
-						<p>NodeJS most of the time combined mongoose</p>
+						<p>NodeJS most of the time combined with mongoose</p>
 					</div>
 					<div id={styles.listItem}>
 						<DiMongodb />
@@ -154,10 +156,7 @@ function ExperienceContent() {
 					<p>Code competition platform</p>
 					<div className={styles.internshipDescription}>
 						<p>
-							A 6 momth period internship conducted at Ericsson
-							where I was responsible to design and implement a
-							website for a project idea about virtual code
-							competition platform.
+							{data.ericssonCodeComp}
 						</p>
 						<p>Tasks:</p>
 						<ul>
@@ -189,14 +188,16 @@ function ProjectsContent() {
 	return (
 		<div>
 			<div className={styles.MainContent}>
-				<h3>Project</h3>
-                <p>work in progress...</p>
-				<div className={styles.projectCards}>
-					<div className={styles.gridItem}></div>
-                    <div className={styles.gridItem}></div>
-                    <div className={styles.gridItem}></div>
-                    <div className={styles.gridItem}></div>
-                    <div className={styles.gridItem}></div>
+				<h3>Projects</h3>
+               
+				<div className={styles.projectCards}>               
+					<CardItem title="Maraia's Salong Alonissos" shorSum={data.mariaSalongSummary} image="/salonLogo.svg"/>
+					<CardItem title="Hamster Wars" shorSum={data.gohamSummary} image="/35.svg"/>
+					<CardItem title="Boat Market" shorSum={data.boatMarket} image="/battleship.svg"/>
+					<CardItem title="Vueddit" shorSum={data.vueddit} image="/Projectvuejs.svg"/>
+					
+
+                    
                     <div className={styles.gridItem}></div>
                  
                    

@@ -20,5 +20,5 @@ export function randomChar(text, setText) {
 			counter = 0;
 			clearInterval(intervalID);
 		}
-	}, 25);
+	}, 35);
 }
