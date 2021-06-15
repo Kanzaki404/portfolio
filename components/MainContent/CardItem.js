@@ -24,6 +24,7 @@ export default function CardItem(props) {
 				<div className={styles.cardContentBack}>
 					<div className={styles.cardContent}>
 						<p className={styles.summary}>{props.shorSum}</p>
+						{props.note  ? <p>{props.note}</p>: null}
 						<div className={styles.linkGroup}>
 							{props.destination !== "" ?
 							<a

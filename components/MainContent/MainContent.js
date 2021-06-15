@@ -195,7 +195,7 @@ function ProjectsContent() {
 					<CardItem title="Hamster Wars" shorSum={data.gohamSummary} image="/35.svg"  destination="HamsterWars" webDestination="http://goham23.herokuapp.com/"/>
 					<CardItem title="Boat Market" shorSum={data.boatMarket} image="/battleship.svg"  destination="Boat-market" webDestination=""/>
 					<CardItem title="Vueddit" shorSum={data.vueddit} image="/Projectvuejs.svg"  destination="vueAssig1" webDestination="https://kanzaki404.github.io/vue1.github.io/#/"/>
-					<CardItem title="MedCal" shorSum={data.MedCal} image="/path0.png"  destination="" webDestination=""/>
+					<CardItem title="MedCal" shorSum={data.MedCal} image="/path0.png"  destination="" webDestination="" note={data.MedCalNote}/>
 
 				</div>
 			</div>
