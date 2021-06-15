@@ -58,8 +58,7 @@ export default function Home() {
 				</div>
 
 				<Button action={() => setCurtain(true)}>Profile</Button>
-			</div>
-			<div className={styles.linkGroup}>
+				<div className={styles.linkGroup}>
 				<a href="https://github.com/Kanzaki404" target="_blank">
 					<AiOutlineGithub />
 				</a>
@@ -70,8 +69,10 @@ export default function Home() {
 					<AiFillLinkedin />
 				</a>
 			</div>
+			</div>
+			
 
-			<Drawer drawerOpen={curtain} />
+			<Drawer drawerOpen={curtain} setCurtain={setCurtain}/>
 		
 		</div>
 	);

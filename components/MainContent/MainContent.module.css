@@ -68,6 +68,7 @@
 .projectCards{
    
     overflow-y: scroll;
+    overflow-x: hidden;
     max-height: 700px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);   
@@ -78,6 +79,25 @@
  
 }
 
+@media screen and (max-width: 1024px) {
+    .projectCards{
+   
+      
+        grid-template-columns: repeat(2, 1fr);   
+        
+     
+    }
+  }
+
+  @media screen and (max-width: 430px) {
+    .projectCards{
+   
+      
+        grid-template-columns:  1fr;   
+        
+     
+    }
+  }
 /* .gridItem{
   
     background-color: #15181b;

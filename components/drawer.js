@@ -1,9 +1,8 @@
 import React, {useReducer} from "react";
 import styles from "./drawer.module.css";
-
 import MainContent from './MainContent/MainContent';
 import Button from './Button'
-
+import Image from "next/image";
 const ACTIONS = {
     OVERVIEW: 'overview',
     EDUCATION: 'education',
@@ -31,18 +30,31 @@ export default function Drawer(props) {
 
 	return (
 		<div className={styles[props.drawerOpen]}>
+            <div className={styles.closeIcon}>
+                <Image
+                  
+                    onClick={() => props.setCurtain(false)}
+                    src="/close.svg"
+                    alt="CLOSE"
+                    width="36"
+                    height="36"
+                />
+            </div>
+          
+           
 			<div className={styles.elContainer}>
+               
                 <MainContent contentType={state.contentType} />
-                
+               
                
             </div>
-                <div className={styles.btnGroup}>
+               
+            <div className={styles.btnGroup}>
                     {state.contentType !== 'overview' ?  <Button action={()=> dispatch({type: ACTIONS.OVERVIEW})}>overview</Button> : null}
                     {state.contentType !== 'education' ?  <Button action={()=> dispatch({type: ACTIONS.EDUCATION})}>education</Button> : null}
                     {state.contentType !== 'experience' ?  <Button action={()=> dispatch({type: ACTIONS.EXPERIENCE})}>experience</Button> : null}
                     {state.contentType !== 'projects' ?  <Button action={()=> dispatch({type: ACTIONS.PROJECTS})}>projects</Button> : null}
                 </div>
-              
                
 		</div>
 	);

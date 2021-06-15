@@ -1,6 +1,6 @@
   
 .container{
-  font-size: 26px;
+  font-size: 1.5em;
   background: url(../public/portfolioWallpaper.jpg);
   background-repeat: no-repeat;
   background-size:cover;
@@ -24,7 +24,7 @@
   width: 70%;
   margin-left: auto;
   margin-right: auto;
-  padding: 50px;
+ 
   color: white;
   margin-top: 50px;
   text-align: center;
@@ -68,7 +68,18 @@
   width: 150px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 25px;
   display: flex;
   justify-content: space-between;
 }
 
+
+@media screen and (max-width: 430px) {
+  .textInfo{
+    min-height:120px;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 1rem;
+    
+  }
+}
