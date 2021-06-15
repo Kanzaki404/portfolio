@@ -8,8 +8,9 @@
     "udemy": "Udemy - Courses for React, Angular and React Native",
     "ericssonRunners": "A 3 momth period thesis work conducted at Ericsson where I was responsible to create a mobile version using React Native of an already existing web version. ",
     "ericssonCodeComp":"A 6 momth period internship conducted at Ericsson where I was responsible to design and implement a website for a project idea about virtual code competition platform.",
-    "mariaSalongSummary" :"A website to promote a hair salong located on the island called Alonissos in Greece",
-    "gohamSummary": "Full Stack app where users can choose winner between two hamsters. Users can also add their own hamster",
-    "boatMarket": "Online market for boats. Users can search boats by type (sail or motorized) name, year and so on. As well as adding new boat listing",
-    "vueddit" : "Vue project that presents similar functionalities as reddit. People can post threads and vote on it."
+    "mariaSalongSummary" :"A website for a hair salong.",
+    "gohamSummary": "Hamster battle full stack app",
+    "boatMarket": "Online market for boats.",
+    "vueddit" : "Early Vue project.",
+    "MedCal": "Patient managements system."
 }

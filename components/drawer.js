@@ -25,14 +25,14 @@ function reducer(state, action){
     }
 
 }
-function Drawer(props) {
+export default function Drawer(props) {
     const [state, dispatch] = useReducer(reducer, {contentType: 'overview'})
-    
+   
 
 	return (
 		<div className={styles[props.drawerOpen]}>
 			<div className={styles.elContainer}>
-                <MainContent contentType={state.contentType}/>
+                <MainContent contentType={state.contentType} />
                 
                
             </div>
@@ -42,8 +42,11 @@ function Drawer(props) {
                     {state.contentType !== 'experience' ?  <Button action={()=> dispatch({type: ACTIONS.EXPERIENCE})}>experience</Button> : null}
                     {state.contentType !== 'projects' ?  <Button action={()=> dispatch({type: ACTIONS.PROJECTS})}>projects</Button> : null}
                 </div>
+              
+               
 		</div>
 	);
 }
 
-export default Drawer;
+
+

@@ -191,16 +191,12 @@ function ProjectsContent() {
 				<h3>Projects</h3>
                
 				<div className={styles.projectCards}>               
-					<CardItem title="Maraia's Salong Alonissos" shorSum={data.mariaSalongSummary} image="/salonLogo.svg"/>
-					<CardItem title="Hamster Wars" shorSum={data.gohamSummary} image="/35.svg"/>
-					<CardItem title="Boat Market" shorSum={data.boatMarket} image="/battleship.svg"/>
-					<CardItem title="Vueddit" shorSum={data.vueddit} image="/Projectvuejs.svg"/>
-					
+					<CardItem title="Maria's Salong Alonissos" shorSum={data.mariaSalongSummary} image="/salonLogo.svg" destination="salong-alonissos" webDestination="https://www.mariahairsalon.gr/"/>
+					<CardItem title="Hamster Wars" shorSum={data.gohamSummary} image="/35.svg"  destination="HamsterWars" webDestination="http://goham23.herokuapp.com/"/>
+					<CardItem title="Boat Market" shorSum={data.boatMarket} image="/battleship.svg"  destination="Boat-market" webDestination=""/>
+					<CardItem title="Vueddit" shorSum={data.vueddit} image="/Projectvuejs.svg"  destination="vueAssig1" webDestination="https://kanzaki404.github.io/vue1.github.io/#/"/>
+					<CardItem title="MedCal" shorSum={data.MedCal} image="/path0.png"  destination="" webDestination=""/>
 
-                    
-                    <div className={styles.gridItem}></div>
-                 
-                   
 				</div>
 			</div>
 		</div>
