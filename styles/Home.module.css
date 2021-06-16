@@ -78,8 +78,9 @@
   .textInfo{
     min-height:120px;
     box-sizing: border-box;
-    width: 100%;
+    
     font-size: 1rem;
+    text-align: -webkit-center;
     
   }
 }

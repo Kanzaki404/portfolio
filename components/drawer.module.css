@@ -73,13 +73,14 @@
     .btnGroup{
        
        
-        justify-content: center;
+      
         position: fixed;
-        background-color: #0c121b;
+        margin-left: auto;
+        margin-right: auto;
     }
     .true{
         
         height: 150vh;
-        margin-bottom: 60px;
+       
     }
   }

@@ -93,9 +93,14 @@
     .projectCards{
    
       
-        grid-template-columns:  1fr;   
+        grid-template-columns: 1fr;
+    width: 300px;
+    padding: 0px;  
         
      
+    }
+    .closeIcon{
+        width: 20px;
     }
   }
 /* .gridItem{

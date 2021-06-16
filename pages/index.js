@@ -55,9 +55,10 @@ export default function Home() {
 				<div className={styles.textInfo}>
 					<p>{name}</p>
 					<p>{description}</p>
+					<Button action={() => setCurtain(true)}>Profile</Button>
 				</div>
 
-				<Button action={() => setCurtain(true)}>Profile</Button>
+				
 				<div className={styles.linkGroup}>
 				<a href="https://github.com/Kanzaki404" target="_blank">
 					<AiOutlineGithub />
