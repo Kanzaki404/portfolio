@@ -78,26 +78,20 @@
     padding: 20px;
  
 }
-
-@media screen and (max-width: 1024px) {
-    .projectCards{
+.closeIcon{
    
-      
+}
+@media screen and (max-width: 1024px) {
+    .projectCards{     
         grid-template-columns: repeat(2, 1fr);   
-        
-     
     }
   }
 
   @media screen and (max-width: 430px) {
-    .projectCards{
-   
-      
+    .projectCards{  
         grid-template-columns: 1fr;
-    width: 300px;
-    padding: 0px;  
-        
-     
+        width: 300px;
+        padding: 0px;  
     }
     .closeIcon{
         width: 20px;
