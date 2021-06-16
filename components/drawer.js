@@ -54,7 +54,7 @@ export default function Drawer(props) {
                     {state.contentType !== 'education' ?  <Button action={()=> dispatch({type: ACTIONS.EDUCATION})}>education</Button> : null}
                     {state.contentType !== 'experience' ?  <Button action={()=> dispatch({type: ACTIONS.EXPERIENCE})}>experience</Button> : null}
                     {state.contentType !== 'projects' ?  <Button action={()=> dispatch({type: ACTIONS.PROJECTS})}>projects</Button> : null}
-                </div>
+            </div>
                
 		</div>
 	);

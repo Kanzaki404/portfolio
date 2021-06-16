@@ -51,25 +51,29 @@
     display:flex;
     margin-left: auto;
     margin-right: auto;
-   
+    width: 70%;
     justify-content: space-between;
     max-width: 100%;
    
 }
 
+
 @media screen and (max-width: 1024px) {
     .true{
         
         width: 100vw;
-        
+        height: 100vh;
     }
     .closeIcon{
         display: block;
+        width: 20px;
     }
+
+   
   }
 
 
-  @media screen and (max-width: 430px) {
+  @media screen and (max-width: 730px) {
     .btnGroup{
        
        
@@ -77,6 +81,7 @@
         position: fixed;
         margin-left: auto;
         margin-right: auto;
+        width:100%;
     }
     .true{
         

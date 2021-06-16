@@ -78,24 +78,20 @@
     padding: 20px;
  
 }
-.closeIcon{
-   
-}
-@media screen and (max-width: 1024px) {
+
+@media screen and (max-width: 1540px) {
     .projectCards{     
         grid-template-columns: repeat(2, 1fr);   
     }
   }
 
-  @media screen and (max-width: 430px) {
+  @media screen and (max-width: 775px) {
     .projectCards{  
         grid-template-columns: 1fr;
         width: 300px;
         padding: 0px;  
     }
-    .closeIcon{
-        width: 20px;
-    }
+   
   }
 /* .gridItem{
   

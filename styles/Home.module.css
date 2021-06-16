@@ -78,9 +78,12 @@
   .textInfo{
     min-height:120px;
     box-sizing: border-box;
-    
+    max-width: 80vw;
     font-size: 1rem;
     text-align: -webkit-center;
-    
+    overflow:hidden;
+  }
+  .btnTextWrapper{
+    text-align: -webkit-center;
   }
 }

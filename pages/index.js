@@ -52,13 +52,14 @@ export default function Home() {
 					height="164"
 					className={styles.image}
 				/>
+				<div className={styles.btnTextWrapper}>
 				<div className={styles.textInfo}>
 					<p>{name}</p>
 					<p>{description}</p>
-					<Button action={() => setCurtain(true)}>Profile</Button>
+					
 				</div>
-
-				
+				<Button action={() => setCurtain(true)}>Profile</Button>
+				</div>
 				<div className={styles.linkGroup}>
 				<a href="https://github.com/Kanzaki404" target="_blank">
 					<AiOutlineGithub />
