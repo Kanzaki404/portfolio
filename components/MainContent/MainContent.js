@@ -162,12 +162,12 @@ function ExperienceContent() {
 						<ul>
 							<li>Wireframe and mock up design</li>
 							<li>
-								Implementation of admin fron-end for
+								Implementation of admin front-end for
 								administrative tasks such as adding events and
 								challenges
 							</li>
 							<li>
-								Implementation of user fron-end where users can
+								Implementation of user front-end where users can
 								submit scripts
 							</li>
 							<li>
