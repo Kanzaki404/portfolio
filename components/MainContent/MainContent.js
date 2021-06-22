@@ -47,7 +47,7 @@ function OverViewContent() {
 				<div>
 					<div id={styles.listItem}>
 						<FaReact />
-						<p>React hooks and Redux if necessery</p>
+						<p>React hooks and Redux if necessary</p>
 					</div>
 					<div id={styles.listItem}>
 						<FaNodeJs />
