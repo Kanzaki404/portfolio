@@ -1,91 +1,78 @@
-.container{
-   overflow-y: scroll;
+.container {
+  overflow-y: scroll;
 }
 /*#2d2d2d*/
 
-.elContainer{
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
-   
-    height: 85vh;
+.elContainer {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+
+  height: 85vh;
 }
 
-.closeIcon{
-    display: none;
-    
-   position: absolute;
-   top: 30px;
-   right: 30px;
-   
+.closeIcon {
+  display: none;
+  position: absolute;
+  top: 40px;
+  right: 30px;
 }
-.true{
-    height: 100vh;
-    width: 75vw;
-    position: absolute;
-    right: 0;
-    top: 0;
-    background-color: #21272f;
-    z-index: 2;
-    transition: 0.3s ease-in-out;
-    overflow-x: hidden;
-    color: white;
+.true {
+  height: 100vh;
+  width: 75vw;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: #21272f;
+  z-index: 2;
+  transition: 0.3s ease-in-out;
+  overflow-x: hidden;
+  color: white;
 }
 
-
-.false{
-    height: 100vh;
-    width: 0vw;
-    position: absolute;
-    right: 0;
-    top: 0;
-    background-color: white;
-    z-index: 2;
-    transition: 0.3s ease-in-out;
-    overflow: hidden;
+.false {
+  height: 100vh;
+  width: 0vw;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: white;
+  z-index: 2;
+  transition: 0.3s ease-in-out;
+  overflow: hidden;
 }
 
-
-.btnGroup{
-    display:flex;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
-    justify-content: space-between;
-    max-width: 100%;
-   
+.btnGroup {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  justify-content: space-between;
+  max-width: 100%;
 }
 
+.navWrapper {
+  margin-bottom: 30px;
+}
 
 @media screen and (max-width: 1024px) {
-    .true{
-        
-        width: 100vw;
-        height: 100vh;
-    }
-    .closeIcon{
-        display: block;
-        width: 20px;
-    }
-
-   
+  .true {
+    width: 100vw;
+    height: 100vh;
   }
-
-
-  @media screen and (max-width: 730px) {
-    .btnGroup{
-       
-       
-      
-        position: fixed;
-        margin-left: auto;
-        margin-right: auto;
-        width:100%;
-    }
-    .true{
-        
-        height: 150vh;
-       
-    }
+  .closeIcon {
+    display: block;
+    width: 20px;
   }
+}
+
+@media screen and (max-width: 730px) {
+  .btnGroup {
+    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  
+}

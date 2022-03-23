@@ -48,8 +48,8 @@ export default function Home() {
 				<Image
 					src="/me.jpg"
 					alt="me"
-					width="164"
-					height="164"
+					width="200"
+					height="210"
 					className={styles.image}
 				/>
 				<div className={styles.btnTextWrapper}>

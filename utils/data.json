@@ -6,6 +6,7 @@
     "educationLinn": "Linneus University - 3 year bachelor's level education within Network security programme",
     "educationHigh": "IHGR - International Highschool of Gothenburg Region (Naturvetenskapsprogrammet)",
     "udemy": "Udemy - Courses for React, Angular and React Native",
+    "stratsysOverview" : "A 6 month period of traineeship conducted at Stratsys as a jr. developer my position mainly consisted of front-end development in the Vue framework and occasional back-end work in certain situations.",
     "ericssonRunners": "A 3 month period thesis work conducted at Ericsson where I was responsible to create a mobile version using React Native of an already existing web version. ",
     "ericssonCodeComp":"A 6 month period internship conducted at Ericsson where I was responsible to design and implement a website for a project idea about virtual code competition platform.",
     "mariaSalongSummary" :"A website for a hair salong.",
@@ -13,5 +14,8 @@
     "boatMarket": "Online market for boats.",
     "vueddit" : "Early Vue project.",
     "MedCal": "Patient management system.",
-    "MedCalNote" : "Work in progress..."
+    "MedCalNote" : "Work in progress...",
+    "aboutParagraphOne" : "I find fulfillment when such services can bring value to people whenever it is for business or simply entertainment.",
+    "aboutParagraphTwo" : "My research mostly included disassembly of devices such as TV, Radio or a VCR that followed with consequences (education from parents).",
+    "aboutParagraphThree" : "Today I lean more toward the software side of technology, specifically in web development. I find joy in the process of development such as coming up with an idea, visualizing the idea by designing an UI, implementing the design and lastly deployment and maintenance."
 }

@@ -1,0 +1,46 @@
+.dropDownList{
+    z-index: 10;
+    position: absolute;
+    background-color: #171920;
+    list-style: none;
+    padding: 10px;
+    margin-top: 3px;
+    border-radius: 5px;
+    width: 50%;
+}
+
+.dropDownListItems{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid transparent;
+    cursor: pointer;
+
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+
+.dropDownListItems:hover{
+    border-bottom: 1px solid chartreuse;
+}
+
+.dropDown{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+    background-color: #171920;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #CCC;
+    width: 200px;
+    cursor: pointer;
+
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
