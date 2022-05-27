@@ -137,6 +137,28 @@ function ExperienceContent() {
     <div>
       <div className={styles.MainContent}>
         <div className={styles.MainContentScroll}>
+        <div className={styles.experienceCard}>
+            <div id={styles.listItem}>
+              {/* <div style={{borderRadius: '5px', borderLeft: '1px solid white', borderRight: '1px solid white', width: '30px', textAlign: "center"}}>  <b>P</b></div> */}
+              <Image src="/preciselyIcon.svg"
+                alt="Stratsys"
+                width="30"
+                height="30"
+                layout="intrinsic"/>
+              <h4 className={styles.cpName}>
+              Precisely<span id={styles.mn}> May/2022 - Jun/2022</span>
+              </h4>
+            </div>
+            <p>Front-end Developer</p>
+            <div className={styles.internshipDescription}>
+              <p>{data.preciselyOverview}</p>
+              <p>Tasks:</p>
+              <ul>
+                <li>Improving & fixing features on client side using React</li>
+                <li>Agile processes with tools such as Jira, Git and Google cloud patform. </li>
+              </ul>
+            </div>
+          </div>
           <div className={styles.experienceCard}>
             <div id={styles.listItem}>
               <Image
@@ -147,7 +169,7 @@ function ExperienceContent() {
                 layout="intrinsic"
               />
               <h4 className={styles.cpName}>
-                Stratsys<span id={styles.mn}>(6 months)</span>
+                Stratsys<span id={styles.mn}>Sep/2021 - Mar/2022</span>
               </h4>
             </div>
             <p>Jr. Developer</p>
@@ -170,7 +192,7 @@ function ExperienceContent() {
             <div id={styles.listItem}>
               <CgEricsson />
               <h4 className={styles.cpName}>
-                Ericsson<span id={styles.mn}>(9 months)</span>
+                Ericsson<span id={styles.mn}>Oct/2020 - May/2022</span>
               </h4>
             </div>
             <p>Code competition platform</p>
@@ -222,18 +244,11 @@ function ProjectsContent() {
             webDestination="http://goham23.herokuapp.com/"
           />
           <CardItem
-            title="Boat Market"
-            shorSum={data.boatMarket}
-            image="/battleship.svg"
-            destination="Boat-market"
-            webDestination=""
-          />
-          <CardItem
-            title="Vueddit"
-            shorSum={data.vueddit}
-            image="/Projectvuejs.svg"
-            destination="vueAssig1"
-            webDestination="https://kanzaki404.github.io/vue1.github.io/#/"
+            title="Vortech"
+            shorSum={data.vortech}
+            image="/progress.png"
+            destination=""
+            webDestination="https://www.figma.com/file/qExQd2XuxzmoGbXDKiLNIb/Vortech?node-id=0%3A1"
           />
         </div>
       </div>
@@ -260,7 +275,7 @@ function About() {
 
             <button className={styles.downloadBtn}>
               <BiDownload className={styles.downIcon} />
-              <a href="/files/EN_RESUME_03_2022.pdf" download>
+              <a href="/files/EN_RESUME_05_2022.pdf" download>
                 Download CV
               </a>
             </button>
