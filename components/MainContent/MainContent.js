@@ -155,7 +155,7 @@ function ExperienceContent() {
               <p>Tasks:</p>
               <ul>
                 <li>Improving & fixing features on client side using React</li>
-                <li>Agile processes with tools such as Jira, Git and Google cloud patform. </li>
+                <li>Agile processes with tools such as Jira, Git and Google cloud platform. </li>
               </ul>
             </div>
           </div>
